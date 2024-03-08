@@ -10,6 +10,8 @@ createSubImages(): with the pixels now stored in a vector we now need a function
 
 LoadPixels(): is used to write the newly generated image, after each move is complete, load pixels is used to write the new pixels into the new image state and write out the program to allow the user to view changes after the swapping
 
+SummaryImage(): I have created an image summary that displays the board state after each move. The game state images are laid out in a way that makes the summary image as square as possible. From left to right, the game state images should are ordered from Image 1 to Image N.
+
 **class TileManager()** is responsible for swapping the tiles and checking whether the random move chosen is a valid move or not, the blacked tile can only move if it's adjacent to a tile.
 
 **The following functions below are from the class**
